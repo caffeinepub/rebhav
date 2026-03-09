@@ -185,7 +185,7 @@ export default function App() {
   useScrollReveal();
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       {/* ===== SECTION 1: HERO ===== */}
       <section
         id="hero"
@@ -231,7 +231,7 @@ export default function App() {
           <h1
             className="font-serif font-bold leading-none"
             style={{
-              fontSize: "clamp(5rem, 18vw, 11rem)",
+              fontSize: "clamp(3rem, 18vw, 11rem)",
               letterSpacing: "0.12em",
               color: "oklch(0.97 0.02 60)",
               textShadow: "0 4px 32px oklch(0 0 0 / 0.5)",
