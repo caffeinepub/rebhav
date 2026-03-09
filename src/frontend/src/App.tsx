@@ -362,7 +362,7 @@ export default function App() {
             <DiscountCard
               badge="7%"
               title="Staff Benefit"
-              description="7% OFF for all Lecturers and Non-Teaching Staff. Please show your ID card."
+              description="7% OFF for all Lecturers and Non-Teaching Staff."
               delayClass="reveal-delay-1"
             />
             <DiscountCard
